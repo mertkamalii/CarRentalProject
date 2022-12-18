@@ -13,5 +13,10 @@ namespace CarRentalProject.Controllers
         {
             return View();
         }
+
+        public ActionResult About()
+        {
+            return View(); 
+        }
     }
 }
