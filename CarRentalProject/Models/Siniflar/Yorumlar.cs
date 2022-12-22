@@ -13,6 +13,7 @@ namespace CarRentalProject.Models.Siniflar
         public string kullaniciAdi { get; set; }
         public string Mail { get; set; }
         public string Yorum { get; set; }
-        public int SUBEID { get; set; }
-    }
+        public Subeler Sube { get; set; }
+        public ICollection<Yorumlar> Yorumlars { get; set; }
+    } 
 }
