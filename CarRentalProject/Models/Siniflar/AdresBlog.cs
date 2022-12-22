@@ -6,7 +6,7 @@ using System.Web;
 
 namespace CarRentalProject.Models.Siniflar
 {
-    public class Adres
+    public class AdresBlog
     {
         [Key]
         public int ID { get; set; }
